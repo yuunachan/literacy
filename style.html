@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <title>タイトル</title>
-  </head>
-  <style>
-     strong{color:blue;}
-  </style>
-  <body>
-    <p>ウェブの基本技術は
-    <strong>HTML</strong>,
-    <strong>URL</strong>,
-    <strong>HTTP</strong>である。</p>
-    
-    <p sr></p>
-    
-    <p>最後の段落</p>
-   </body>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width">
+  <link rel='stylesheet' href='style.css'>
+  <title>スタイルの適用</title>
+</head>
+  
+<style>
+  p.foo {color:green;}
+  #bar {color:blue;}
+</style>
+
+<body>
+  <p style="color:red;>この段落の文字色は赤．</p>
+
+  <p class="foo">この段落の文字色は緑．</p>
+
+  <p id="bar">この段落の文字色は青．</p>
+</body>
+
 </html>
